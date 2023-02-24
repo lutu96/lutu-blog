@@ -241,7 +241,18 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    /* background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%); */
+    /* background: #2193b0; 
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  
+    background: linear-gradient(to right, #6dd5ed, #2193b0);  */
+    background: #1f4037; 
+    background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  
+    background: linear-gradient(to right, #99f2c8, #1f4037); 
+    /* background: #ffb347; 
+    background: -webkit-linear-gradient(to right, #ffcc33, #ffb347); 
+    background: linear-gradient(to right, #ffcc33, #ffb347);  */
+
+
 }
 
 .text-color {
@@ -551,8 +562,8 @@ header .go-back i {
 }
 
 .bg-cover:after {
-    -webkit-animation: rainbow 60s infinite;
-    animation: rainbow 60s infinite;
+    /* -webkit-animation: rainbow 60s infinite;
+    animation: rainbow 60s infinite; */
 }
 
 .bg-cover:before,
@@ -1903,7 +1914,11 @@ footer .copy-right {
 }
 
 .top-scroll .btn-floating {
-    background: linear-gradient(to bottom right, #FF5E3A 0%, #FF2A68 100%);
+    /* background: linear-gradient(to top, #eb3349, #f45c43); */
+    background: #8A2387;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     width: 48px;
     height: 48px;
 }
